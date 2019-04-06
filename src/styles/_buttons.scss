@@ -1,0 +1,45 @@
+.btn {
+  border: none;
+  color: #fff;
+  cursor: pointer;
+
+  &-filter {
+    background: #273a71;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 3px;
+    &:disabled {
+      background: #ccc;
+      color: #273a71;
+    }
+  }
+  &-complete-all {
+    margin: 25px 0 10px 5px;
+    padding: 10px;
+    background: #eb7d4b;
+    color: #fff;
+    border: 2px solid #eb7d4b;
+    &:active {
+      border-color: #fff;
+    }
+  }
+  &-remove {
+    background: #ccc;
+    color: #273a71;
+    float: right;
+    background: white;
+    font-weight: bold;
+    font-size: 12px;
+    margin-right: 40px;
+  }
+  &-clear-completed {
+    padding: 10px;
+    color: #17c2a4;
+    font-weight: bold;
+    background: #fff;
+    border: 2px solid #17c2a4;
+    &:active {
+      border-color: #fff;
+    }
+  }
+}

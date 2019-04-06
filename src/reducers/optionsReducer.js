@@ -1,7 +1,4 @@
-const initialState = [
-  { option: "111", completed: true, id: "111" },
-  { option: "2111", completed: false, id: "2111" }
-];
+const initialState = [{ option: "Add new todo", completed: false, id: "111" }];
 
 export default (state = initialState, action) => {
   switch (action.type) {
@@ -14,8 +11,6 @@ export default (state = initialState, action) => {
           completed: false
         }
       ];
-    case "REMOVE_ALL":
-      return [];
     case "REMOVE_OPTION":
       return state.filter(({ id }) => id !== action.id);
     case "TOGGLE_COMPLETION":

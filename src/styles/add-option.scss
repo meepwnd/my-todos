@@ -1,0 +1,30 @@
+.option-input {
+	width: calc(100% - 165px);
+	margin: 30px 10px 30px 0;
+	height: 40px;
+	padding: 5px 15px;
+	background: #fff;
+	color: #273a71;
+	border: 2px solid #3c5499;
+}
+.btn-add-option {
+	padding: 5px 10px;
+	height: 40px;
+	background: #fff;
+	font-weight: bold;
+	display: inline-block;	
+	color: #3c5499;
+	border: 2px solid #3c5499;
+	font-size: 14px;
+	&:active {
+		border-color: #fff;
+	}
+}
+.error {
+	padding: 20px 10px 10px 0;
+	margin: 0;
+	color: #ff3333;
+	font: bold 18px "Open Sans", sans-serif;
+	display: block;
+	
+}

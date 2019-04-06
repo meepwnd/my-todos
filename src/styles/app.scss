@@ -1,0 +1,28 @@
+.container {
+  max-width: 760px;
+  margin: 50px auto;
+  padding: 20px 15px;
+  background: #17c2a4;
+  border: 2px solid #3c5499;
+}
+.heading {
+  font: bold 36px "Open Sans", sans-serif;
+}
+
+.item-count {
+	margin: 5px 5px 25px;
+	font: italic bold 18px "Open Sans", sans-serif;
+	color: #344b8e;
+}
+
+.options {
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.option {
+	padding: 15px;
+	margin: 10px 20px 10px 40px;
+	font: bold 24px "Open Sans", sans-serif;
+	
+}
