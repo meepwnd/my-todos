@@ -5,7 +5,6 @@ import VisibilityFilters from "./VisibilityFilters";
 import ClearCompletedButton from "./ClearCompleted";
 import ItemsCount from "./ItemsCount";
 import CompleteAllButton from "./CompleteAllButton";
-import "normalize-css/normalize.css";
 import "../styles/main.scss";
 
 export default class App extends React.Component {
