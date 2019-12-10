@@ -1,5 +1,6 @@
-# Reac/Redux Todo App
+# React/Redux Todo App
 React example app that demonstrates using React with Redux.
+To see demo click here: https://todoapp12356.herokuapp.com/
 
 ## Available Scripts
 In the project directory, you can run:
