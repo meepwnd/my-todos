@@ -2,6 +2,7 @@
   "presets": [
     ["@babel/env",
     {"useBuiltIns": "entry",
+      "corejs": "^3.4.7",
       "targets": {
         "browsers": [
           ">1%",

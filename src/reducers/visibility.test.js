@@ -1,13 +1,12 @@
 import visibilityReducer from './visibilityReducer';
 
 describe('testing visibility reducer', () => {
-	it('should return filter', () => {
-		const initialState = 'SHOW_ALL';
-		const action = {
-			type: 'SET_VISIBILITY_FILTER',
-			filter: 'SHOW_COMPLETED'
-		}
-		const state = visibilityReducer(initialState, action);
-		expect(state).toBe('SHOW_COMPLETED')
-	});
+	it('should set visibility filter', () => {
+    const action = {
+      type: 'SET_VISIBILITY_FILTER',
+      filter: 'test'
+    }
+    const state = visibilityReducer('', action)
+    expect(state).toBe('test')
+  })
 });
