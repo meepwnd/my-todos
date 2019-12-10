@@ -2,27 +2,27 @@ import React from "react";
 import { addOption } from "../actions/actions";
 import { connect } from "react-redux";
 
-class AddOption extends React.Component {
+export class AddOption extends React.Component {
   state = {
+    option: '',
     error: ""
   };
 
   onSubmit = e => {
     e.preventDefault();
-    const option = e.target.elements.inputOption.value.trim();
-    if (!option) {
+    if (!this.state.option) {
       this.setState(() => ({
         error: "Enter valid option!"
       }));
-    } else if (this.props.options.includes(option)) {
+    } else if (this.props.options.includes(this.state.option)) {
       this.setState(() => ({
         error: "This todo already exists!"
       }));
     } else {
-      this.props.addOption(option);
-      e.target.elements.inputOption.value = "";
+      this.props.addOption(this.state.option);
       this.setState(() => ({
-        error: ""
+        error: "",
+        option: ''
       }));
     }
   };
@@ -31,7 +31,7 @@ class AddOption extends React.Component {
     return (
       <form onSubmit={this.onSubmit}>
         {this.state.error && <p className="error">{this.state.error}</p>}
-        <input className="option-input" type="text" name="inputOption" />
+        <input className="option-input" value={this.state.option} onChange={(e) => this.setState({option: e.target.value.trim()})}/>
         <button className="btn-add-option">add todo</button>
       </form>
     );
