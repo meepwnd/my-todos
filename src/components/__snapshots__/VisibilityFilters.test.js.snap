@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VisibilityFilters component should render correctly 1`] = `
+<div>
+  <Connect(Link)
+    filter="SHOW_ALL"
+  >
+    All
+  </Connect(Link)>
+  <Connect(Link)
+    filter="SHOW_COMPLETED"
+  >
+    Completed
+  </Connect(Link)>
+  <Connect(Link)
+    filter="SHOW_UNCOMPLETED"
+  >
+    Uncompleted
+  </Connect(Link)>
+</div>
+`;

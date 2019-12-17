@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Option component should render correctly 1`] = `
+<Option
+  removeOption={[MockFunction]}
+  toggleCompletion={[MockFunction]}
+>
+  <li
+    className="option"
+  >
+    <span
+      onClick={[Function]}
+      style={
+        Object {
+          "textDecoration": "none",
+        }
+      }
+    />
+    <button
+      className="btn btn-remove"
+      onClick={[Function]}
+    >
+      Remove
+    </button>
+  </li>
+</Option>
+`;

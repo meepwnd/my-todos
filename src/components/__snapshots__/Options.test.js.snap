@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`options component should render correctly with no options 1`] = `
+<ul
+  className="options"
+/>
+`;
+
+exports[`options component should render correctly with two options 1`] = `
+<ul
+  className="options"
+>
+  <Connect(Option)
+    completed={true}
+    id="1"
+    key="1"
+    option="option 1"
+  />
+  <Connect(Option)
+    completed={true}
+    id="2"
+    key="2"
+    option="option 2"
+  />
+</ul>
+`;

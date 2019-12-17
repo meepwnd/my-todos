@@ -10,6 +10,7 @@ test('should render error for invalid form submission', () => {
   expect(wrapper.state('error')).toBe('Enter valid option!');
 });
 
+
 test('should set description on input change', () => {
   const value = 'Test todo';
   const wrapper = shallow(<AddOption />);

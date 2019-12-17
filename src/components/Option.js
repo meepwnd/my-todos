@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import { removeOption } from "../actions/actions";
 import { toggleCompletion } from "../actions/actions";
 
-const Option = props => (
+export const Option = props => (
   <li className="option">
     <span
       onClick={() => {

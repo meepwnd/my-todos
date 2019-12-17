@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`itemscout component with no items should render correctly 1`] = `
+<p
+  className="item-count"
+>
+  NaN
+   
+  items
+   left
+</p>
+`;
+
+exports[`itemscout component with no items should render correctly when 1 item left 1`] = `
+<p
+  className="item-count"
+>
+  1
+   
+  item
+   left
+</p>
+`;
+
+exports[`itemscout component with no items should render correctly when 2 items left 1`] = `
+<p
+  className="item-count"
+>
+  2
+   
+  items
+   left
+</p>
+`;

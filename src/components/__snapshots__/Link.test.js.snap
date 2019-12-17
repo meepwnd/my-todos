@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`link component should render correctly 1`] = `
+<button
+  className="btn btn-filter"
+  disabled={true}
+  onClick={[MockFunction]}
+>
+  test
+</button>
+`;

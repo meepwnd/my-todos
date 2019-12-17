@@ -1,7 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 
-const ItemsCount = props => {
+export const ItemsCount = props => {
   const { completedTodosCount, todosCount } = props;
   const activeCount = todosCount - completedTodosCount;
   const itemWord = activeCount === 1 ? "item" : "items";

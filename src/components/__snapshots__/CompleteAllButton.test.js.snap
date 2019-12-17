@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`clear all completed button should render correctly 1`] = `
+<button
+  className="btn-complete-all"
+>
+  Complete All
+</button>
+`;
