@@ -1,5 +1,5 @@
 # React/Redux Todo App
-React example app that demonstrates using React with Redux.
+React example app that demonstrates using React with Redux. 
 
 To see demo click here: https://todoapp12356.herokuapp.com/
 
